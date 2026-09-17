@@ -1,0 +1,29 @@
+{
+  "name": "claude-session-picker",
+  "version": "0.1.0",
+  "description": "Pick a Claude Code session from every project and resume it — with a warning when it is already open elsewhere.",
+  "bin": {
+    "ccs": "bin/ccs.js",
+    "claude-session-picker": "bin/ccs.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "README.ko.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "sessions",
+    "resume"
+  ],
+  "license": "MIT"
+}
